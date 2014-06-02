@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>外行搭建Hexo博客（更新中） | 嗄STのBL✪G</title>
+  <meta name="author" content="xawsol">
+  
+  <meta name="description" content="一个人只能有一种命运">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="外行搭建Hexo博客（更新中）"/>
+  <meta property="og:site_name" content="嗄STのBL✪G"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.ico" rel="icon" type="image/x-ico">
+  <link rel="alternate" href="/atom.xml" title="嗄STのBL✪G" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">嗄STのBL✪G</a></h1>
+  <h2><a href="/"></a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+      <li><a href="/grave-place">Graveplace</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-05-31T05:15:54.000Z"><a href="/2014/05/31/外行配置Hexo博客/">5月 31 2014</a></time>
+      
+      
+  
+    <h1 class="title">外行搭建Hexo博客（更新中）</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+          
+            <div id="toc" class="toc-article">
+           <strong class="toc-title"></strong>
+           <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#第一步：安装_GIt_for_Windows、nodejs_以及安装_Hexo_博客系统"><span class="toc-number">1.</span> <span class="toc-text">第一步：安装 GIt for Windows、nodejs 以及安装 Hexo 博客系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第二步：Github_注册、Gitcafe_注册"><span class="toc-number">2.</span> <span class="toc-text">第二步：Github 注册、Gitcafe 注册</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第三步：执行_hexo_命令"><span class="toc-number">3.</span> <span class="toc-text">第三步：执行 hexo 命令</span></a></li></ol>
+          </div>
+        
+        <blockquote>
+<p>内容始终是更重要的东西，别过分在意形式 <img src="/images/emojis/smile.png" width="20" height="20" class=" emoji nofancybox" title="smile"> 。门外汉一枚，其他的博客平台总局的不合心意、爱折腾、就是想整一个 Hexo 博客玩玩。——整理本文</p>
+</blockquote>
+<blockquote>
+
+<p>本文参考：zipperary.com/categories/hexo/</p>
+</blockquote>
+
+
+<blockquote>
+
+<p><strong>注：只在win 7系统试过</strong></p>
+</blockquote>
+
+
+<h2 id="第一步：安装_GIt_for_Windows、nodejs_以及安装_Hexo_博客系统">第一步：安装 GIt for Windows、nodejs 以及安装 Hexo 博客系统</h2>
+<ol>
+<li><a href="http://msysgit.github.io/" target="_blank">Git for Windows</a> 以及 <a href="http://nodejs.org/" target="_blank">nodejs</a> 就看做是两个<code>必要</code>的软件吧，下载并安装好。<a href="http://pan.baidu.com/s/1kT4xXVx" target="_blank">网盘直接下载</a></li>
+<li>安装完成之后，系统右键菜单里就会多了几个选项。要用到的是 <code>Git Bash</code> 选项。在任意位置右击选择 <code>Git Bash</code>。输入以下命令，这就是要安装 Hexo 博客：</li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>npm <span class="keyword">install</span> -g hexo
+</pre></td></tr></table></figure>
+
+
+<h2 id="第二步：Github_注册、Gitcafe_注册">第二步：Github 注册、Gitcafe 注册</h2>
+<ol>
+<li><a href="https://github.com" target="_blank">Github</a> 和 <a href="https://github.com" target="_blank">GitCafe</a> 任选其一。存放博客文件的地方，想象成网盘。</li>
+</ol>
+<h2 id="第三步：执行_hexo_命令">第三步：执行 hexo 命令</h2>
+<ol>
+<li>在电脑的任意位置新建一个文件夹，进入这个文件夹。再次地点击鼠标右键选择 <code>Git Bash</code>。 <br/>（<strong>注意：一定要在新建的文件夹内：右击——选择 <code>Git Bash</code> 哦</strong>）</li>
+<li>输入 <code>Hexo init</code> ，回车，这是初始化的意思。没意外的话，就会在本文件夹内生成一些文件了。</li>
+<li>此时雏形已经有了，并且可以试着看看效果。</li>
+<li>输入 <code>Hexo g</code>，回车，这是生成博客页面。但是要如何访问的到呢？</li>
+<li>输入 <code>Hexo s</code>，回车，这是把生成的内容挂到本地的端口上。这样子我们就可以用服务器访问了。</li>
+<li>打开游览器输入：<code>http://localhost:4000/</code>，如果看到一篇名为“Hello World”的文章，那就说明之前的操作都是有效地。</li>
+</ol>
+<ul>
+<li>简单配置 config.yml 文件</li>
+<li>light 主题 、disqus 评论系统、多说评论系统</li>
+<li>细节以及其他（favicon、文章目录Toc）</li>
+</ul>
+
+      
+    </div>
+    <footer>
+      
+        
+  
+  <div class="categories">
+    <a href="/categories/技巧/">技巧</a>
+  </div>
+
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+  <h1 class="title">留言</h1>
+
+  
+  <!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="/2014/05/31/外行配置Hexo博客/" data-title="外行搭建Hexo博客（更新中）" data-url="http://yoursite.com/2014/05/31/外行配置Hexo博客/"></div>
+  <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+        var duoshuoQuery = {short_name:"xoxo"};
+          (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';ds.async = true;
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0] 
+             || document.getElementsByTagName('body')[0]).appendChild(ds);
+          })();
+        </script>
+    <!-- 多说公共JS代码 end -->
+</section>
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:yoursite.com">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/日常/2014/">2014</a><small>2</small></li>
+  
+    <li><a href="/categories/技巧/">技巧</a><small>1</small></li>
+  
+    <li><a href="/categories/日常/">日常</a><small>2</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">标签</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/T1/">T1</a><small>1</small></li>
+  
+    <li><a href="/tags/buckethead/">buckethead</a><small>1</small></li>
+  
+    <li><a href="/tags/bullet/">bullet</a><small>1</small></li>
+  
+    <li><a href="/tags/锤子/">锤子</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2014 xawsol
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+</body>
+</html>
